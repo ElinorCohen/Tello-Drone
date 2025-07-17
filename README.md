@@ -11,8 +11,8 @@ The drone:
 - Battery-powered (1100mAh), with ~13 minutes flight time
 - Can be controlled manually or programmatically via SDK
 
-> ![Drone Structure](slide-3.png)
-> ![Drone Structure](slide-4.png)
+> ![Drone Structure](images/slide-3.png)
+> ![Drone Structure](images/slide-4.png)
 
 ---
 
@@ -38,11 +38,11 @@ Control the drone using **hand gestures** detected in real-time by its camera.
 
 The system uses MediaPipe to detect 21 key hand landmarks. These are used to determine finger positions and directions.
 
-> ![Hand Landmarks](slide-7.png)
+> ![Hand Landmarks](images/slide-7.png)
 
 To ensure gesture recognition works at different distances from the camera and with varying hand sizes, the system **normalizes distances** based on a fixed ratio between reference points (point 0 and point 5). This makes gesture detection more reliable.
 
-> ![Hand Landmarks](slide-8.png)
+> ![Hand Landmarks](images/slide-8.png)
 
 ---
 
@@ -58,9 +58,9 @@ To get actual pixel values:
 pixel_x = x * image_width
 pixel_y = y * image_height
 ```
-> ![X/Y Coordinate System](slide9.png)
+> ![X/Y Coordinate System](images/slide9.png)
 
-> ![X/Y Coordinate System](slide-10.png)
+> ![X/Y Coordinate System](images/slide-10.png)
 
 ---
 
